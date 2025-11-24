@@ -25,8 +25,6 @@ Because the U.S. AI ecosystem depends on:
 
 Yet the current U.S. physical + digital infrastructure is 20–40 years old.
 
-You are right:
-
 It makes no sense that the most advanced AI runs on outdated national infrastructure.
 
 So the real strategic question becomes:
@@ -209,7 +207,6 @@ AI 要能運作，需要：
 	•	氣候韌性結構
 
 但美國很多基礎建設早已老化。
-你說得完全正確：
 
 AI 已經是 2025，但基礎建設還停在 1980。
 
