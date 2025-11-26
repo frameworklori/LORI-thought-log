@@ -9,3 +9,16 @@ and narrative authorship in virtual and AI-mediated environments.
 
 This is not resistance to AI.
 This is the continuation of being human.
+
+------
+
+# LORI-HEDA — 人類情感與決策權威
+
+在 AI 取代勞動、優化，甚至連思想的時代，
+人類僅存的權威是定義意義的能力。
+
+本倉庫記錄維持人類身份主權、情感紮根，以及在虛擬與 AI 介導環境中敘事自主所需的原則、邏輯和情感架構。
+
+這不是對 AI 的抵抗。
+這是人類存在的延續。
+
