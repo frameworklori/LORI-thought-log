@@ -14,3 +14,5 @@ Any use of this content for:
 is strictly prohibited without explicit authorization.
 
 This work may not be replicated, transformed, or redistributed in any form that compromises authorship integrity.
+
+All rights reserved.
