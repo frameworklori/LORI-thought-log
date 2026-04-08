@@ -28,17 +28,15 @@
 
 ## 🌍 English Version
 
-In this vast universe, we are so small  
-If time and space could overlap — just for a moment  
-
-Let those torn apart by disaster and war  
-Find a path between the stars, leading back to each other  
-
-Even just one glance  
-Would be enough to meet again  
-
-To finally say  
-The words we never had the chance to say  
+In a silent sky, a fading light
+A name you called into the night
+Hands once close, now worlds apart
+Ash and echoes fill the dark
+Just one moment
+If time could bend
+If stars could guide
+Let our broken worlds collide
+Before saying goodbye
 
 ---
 
