@@ -7,8 +7,7 @@
 
 ## 🎬 Demo Video
 
-[▶ Watch the video](./video/Geminimusic時間的縫隙.MP4)
-
+[▶ Watch the video](./時間的縫隙-music-project/video/Geminimusic時間的縫隙.MP4)
 ---
 
 ## ✍️ Lyrics
