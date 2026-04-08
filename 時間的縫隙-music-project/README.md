@@ -10,7 +10,7 @@
 [▶ Watch the video](https://github.com/frameworklori/LORI-thought-log/blob/main/時間的縫隙-music-project/video/Geminimusic時間的縫隙.MP4)
 ---
 
-## ✍️ Lyrics
+## Chinese Lyrics Version
 
 浩瀚的宇宙，人如此渺小  
 如果時間與空間能重疊——哪怕一瞬間  
@@ -26,7 +26,7 @@
 
 ---
 
-## 🌍 English Version
+## 🌍 English lyrics Version
 
 In a silent sky, a fading light
 A name you called into the night
