@@ -14,7 +14,7 @@
 
 ## If_Time_Could_Bend
 
-[▶ Watch the video](https://github.com/frameworklori/LORI-thought-log/blob/main/時間的縫隙-music-project/video/GeminimusicIf_Time_Could_Bend.MP4)
+[▶ Watch the video](https://github.com/frameworklori/LORI-thought-log/blob/main/時間的縫隙-music-project/video/GeminimusicIf_Time_Could_Bend.MP3)
 
 
 ## Chinese Lyrics Version
