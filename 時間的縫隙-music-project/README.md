@@ -7,7 +7,7 @@
 
 ## 🎬 Demo Video
 
-[▶ Watch the video](https://github.com/frameworklori/LORI-thought-log/blob/main/時間的縫隙-music-project/video/Geminimusic時間的縫隙.MP4))
+[▶ Watch the video](https://github.com/frameworklori/LORI-thought-log/blob/main/時間的縫隙-music-project/video/Geminimusic時間的縫隙.MP4)
 ---
 
 ## ✍️ Lyrics
