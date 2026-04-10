@@ -35,7 +35,9 @@
 
 ## 🌍 English lyrics Version
 
-In a silent sky, a fading light
+````test
+In a silent sky,
+a fading light
 A name you called into the night
 Hands once close, now worlds apart
 Ash and echoes fill the dark
@@ -44,7 +46,7 @@ If time could bend
 If stars could guide
 Let our broken worlds collide
 Before saying goodbye
-
+````
 ---
 
 ## 🎼 Credits
