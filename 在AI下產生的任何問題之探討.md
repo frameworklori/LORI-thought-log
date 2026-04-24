@@ -143,3 +143,30 @@ French Revolution
 所以大家會選:「先活下來，再談地球」
 也許我們生活的不是在幻覺中，而是自己建造的循環錯覺中。
 
+2026/4/21
+能源探討
+Demand will rise —
+not because we want more,
+but because survival will require it.
+Heat → cooling  
+Instability → local grids  
+Food → indoor systems  
+AI → constant compute  
+But demand won’t grow infinitely.
+It will be constrained by:
+cost, efficiency, and control.
+The future isn’t about “how much energy exists.”
+It’s about:
+who gets to use it.
+Timeline:
+Now–2035: Cold-region data centers dominate  
+2035–2055: Microgrids + ocean systems decentralize energy  
+2055+: Space energy begins — not by choice, but by necessity
+Survival Pressure ↑
+→ Energy Demand ↑
+→ Infrastructure Shift
+→ Control Concentration
+→ Access Inequality
+
+
+
