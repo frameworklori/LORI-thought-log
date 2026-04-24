@@ -143,8 +143,8 @@ French Revolution
 所以大家會選:「先活下來，再談地球」
 也許我們生活的不是在幻覺中，而是自己建造的循環錯覺中。
 
-2026/4/21
-能源探討
+# 2026/4/21
+能源探討預測
 Demand will rise —
 not because we want more,
 but because survival will require it.
