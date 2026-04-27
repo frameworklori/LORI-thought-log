@@ -168,7 +168,7 @@ Survival Pressure ↑
 → Control Concentration
 → Access Inequality
 
-#2026/4/28
+# 2026/4/28
 
 AI 權利分離原則（Semantic Version）
 前提：
