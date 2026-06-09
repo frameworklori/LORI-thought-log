@@ -218,3 +218,13 @@ AI 時代的問題，不在於技術能力，
 
 若兩者不被分離，
 AI 將加速集中，而非改善人類結構。
+
+# 2026/6/9
+AI在生成你給它的指令(幽默感、諷剌語等)，你回頭問它對字面上的意思解釋時，它對於不懂的字(詞)會主動帶過，選擇性跳過不回答，去回答它知道的片語(字面)來解釋給你聽。
+例如: 一個字折解後的諷剌字語，它不能夠理解。sugar daddy 我把字折解成sugar+frog 去形容，但它並不清楚我用sugar的意思，即使用下文用
+sugarfrog is ATM avaiable 24/7. 它也不能夠理解上個字的sugarfrogS的意思。人類看到：
+Give you money make me happy.
+Money is my honey.
+Sugarfrog is ATM available 24/7.
+很快就能推測：
+Sugarfrog = Sugar Daddy 的戲謔變體
