@@ -440,4 +440,57 @@ and greenhouse-gas reduction as the primary climate strategy.
 
 Climate materials should never be used as a substitute for emissions reduction, adaptation, resilient infrastructure, or ecosystem restoration.
 
-LORI FrameworkCross-domain reasoning for climate, planetary science, materials, and ethical governance.
+LORI FrameworkCross-domain reasoning for climate, planetary science, materials, and ethical governance.                  
+
+--------------------------------
+
+08/13/0/2026 
+
+Research Proposal (One Page)
+Oxidative Chain-Termination as a Design Strategy for Short-Lived, High-Albedo Organic Aerosols
+
+Submitted for consideration as a laboratory screening / rotation project Concept originator: Lori (LORI Framework — independent research concept) Status: Early-stage hypothesis, seeking experimental collaboration
+
+Background
+
+Stratospheric aerosol injection (SAI) research has focused almost entirely on sulfate aerosols, whose radiative and atmospheric-chemistry behavior is well characterized but carries known risks: stratospheric ozone depletion via heterogeneous chlorine activation, and multi-year atmospheric persistence that raises termination-shock concerns.
+
+Titan's atmospheric haze offers a different reference point: it forms through photochemical polymerization of small nitrogen/hydrocarbon precursors in a reducing (oxygen-free) atmosphere, producing complex organic aggregates (tholins) with strong shortwave scattering. This chemistry cannot be transferred directly to Earth's oxygen-rich atmosphere — but the underlying reaction logic may still be useful.
+
+Hypothesis
+
+In an oxygen-rich environment, controlled oxidation may act not only as a destructive side-reaction, but as a deliberate polymer-growth terminator — producing smaller, lighter, less-absorbing organic particles with shorter atmospheric residence time than sulfate aerosols, by design rather than by accident.
+
+If true, this reframes O₂ from "the reason tholin chemistry fails on Earth" into a tunable parameter: precursor + [O₂] + [UV dose] → particle size distribution → optical behavior → residence time.
+
+Specific Aim (single, narrow, testable)
+
+Determine whether varying oxygen partial pressure during UV-initiated photopolymerization of a nitrile/hydrocarbon precursor mixture produces a measurable, monotonic relationship between [O₂] and (a) resulting particle size/molecular weight distribution, and (b) degree of oxygenated functionalization (C=O, O–H group density via FTIR).
+
+Proposed Minimal Experiment
+
+Phase A — Computational screening (2–4 weeks, no wet lab required)
+
+DFT or semi-empirical modeling of candidate precursor radicals (e.g., HCN/C₂H₂-derived, or simpler proxy nitriles) under varying O₂ concentration.
+Predict likely chain-termination points and resulting oligomer size distribution.
+Output: a short list (2–3) of precursor systems most likely to show a clean O₂-dependence signal.
+
+Phase B — Microreactor screening (bench-scale, 4–8 weeks)
+
+UV photoreactor with controllable O₂/N₂ atmosphere (standard aerosol chamber setup).
+Fixed precursor concentration, UV dose, and temperature; vary [O₂] across 5–6 levels (0% to ambient 21%).
+Measure: particle size (DLS or SMPS), optical absorbance/scattering (UV-Vis), functional group composition (FTIR), and total particle mass yield.
+
+Success criterion: A statistically distinguishable trend between [O₂] and particle size or optical absorption across the tested range — regardless of direction. A null result is also informative and would close this research line quickly and cheaply.
+
+Why This Is a Good Screening Project
+Low cost, short duration, uses standard aerosol-chamber and photochemistry equipment already common in atmospheric chemistry labs.
+Answers one narrow, falsifiable question rather than requiring commitment to the full downstream climate-materials concept.
+Independent of any deployment question — this is precursor chemistry, not atmospheric release.
+Explicit Non-Claims
+
+This proposal does not claim any material is ready for atmospheric use, does not address toxicology, ozone interaction, or climate modeling (those are downstream questions contingent on Phase A/B results), and does not advocate deployment of any kind.
+
+Contact / Origin
+
+Concept developed independently by Lori as part of a broader planetary-chemistry-inspired climate materials research note (PICM). Full background document available on request.
