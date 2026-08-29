@@ -914,3 +914,5 @@ This document describes a conceptual research direction within the LORI Framewor
 It does not claim that all sensing, prediction, satellite communication, real-time hazard tracking, safe-zone validation, or dynamic routing capabilities described here currently exist at sufficient reliability for operational deployment.
 
 Technical feasibility, latency, uncertainty, false alarms, privacy, cybersecurity, human factors, governance, liability, emergency-authority integration, and cross-border interoperability require further research and testing.
+
+👉 evacuation fails, the system’s last-known-position data may still assist authorized responders in locating missing persons, prioritizing possible survivors, and, when necessary, supporting recovery and identification—without treating device location as proof of a person’s condition or location.
