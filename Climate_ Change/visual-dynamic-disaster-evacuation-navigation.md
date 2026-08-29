@@ -915,4 +915,4 @@ It does not claim that all sensing, prediction, satellite communication, real-ti
 
 Technical feasibility, latency, uncertainty, false alarms, privacy, cybersecurity, human factors, governance, liability, emergency-authority integration, and cross-border interoperability require further research and testing.
 
-👉 evacuation fails, the system’s last-known-position data may still assist authorized responders in locating missing persons, prioritizing possible survivors, and, when necessary, supporting recovery and identification—without treating device location as proof of a person’s condition or location.
+👉 If evacuation fails, the system’s last-known-position data may still assist authorized responders in locating missing persons, prioritizing possible survivors, and, when necessary, supporting recovery and identification—without treating device location as proof of a person’s condition or location.
