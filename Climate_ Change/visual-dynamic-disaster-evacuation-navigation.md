@@ -124,131 +124,311 @@ Safe zones should be validated before disasters whenever possible.
 
 ⸻
 
-5 — IS MY ESCAPE ROUTE STILL SAFE?
+5. Evacuation Must Not Require Continuous Screen Attention
 
-This is the critical difference between an emergency warning and a live evacuation navigation system.
+Once evacuation begins, the user should not be expected to continuously watch the phone.
 
-Conditions can change while a person is evacuating.
+A person may be:
 
-A route that was safe two minutes ago may no longer be safe.
+* running
+* climbing toward higher ground
+* helping a child or elderly person
+* moving through darkness or rain
+* avoiding debris
+* navigating stairs or uneven terrain
 
-Possible changes include:
+Continuously looking at a screen while moving may itself create additional danger.
 
-* bridge failure
-* bridge flooding
-* road inundation
-* landslide
-* debris flow
-* rockfall
-* tunnel flooding
-* wildfire movement
-* damaged infrastructure
-* blocked road
-* secondary flood wave
-* newly detected hazard zone
+The system should therefore use different communication modes at different stages.
 
-The system should continuously evaluate whether the evacuation route remains usable.
+Stage 1 — Initial Emergency Alert
+
+When the first emergency alarm sounds, the user looks at the phone.
+
+The first screen should communicate primarily through spatial graphics rather than paragraphs of text:
+
+🌊
+🔴 DANGER
+↓↓↓↓↓↓
+     🔵 YOU
+        ↗
+       ↗
+      ↗
+🟢 SAFE
+
+Within seconds, the user should understand:
+
+What happened?
+
+Where is the danger?
+
+Where am I?
+
+Which direction is safety?
+
+Text should remain secondary because reading requires additional interpretation time.
 
 ⸻
 
-3. Image-First, Text-Second
+Stage 2 — Evacuation Begins
 
-During an emergency, the interface should minimize reading and interpretation.
+Once the user starts moving, the system enters:
 
-The first screen should rely primarily on:
+MOVEMENT MODE
 
-* symbols
-* direction
-* distance
-* spatial relationships
-* large arrows
-* simple hazard colors
-* vibration
-* audio guidance
+The user should no longer need to continuously watch the screen.
 
-The interface should ideally be understandable even when the user does not speak the local language.
+The device continues receiving updated hazard and route information in the background.
+
+Conceptually:
+
+USER MOVING
+     ↓
+Phone location updates
+     ↕
+Emergency network
+     ↕
+Hazard / infrastructure updates
+     ↓
+Route continuously reassessed
+
+The objective is:
+
+Eyes on the environment, not on the phone.
+
+⸻
+
+Stage 3 — New Danger Appears on the Escape Route
+
+Suppose the user is moving toward a safe zone:
+
+        🟢 SAFE
+           ↑
+           ↑
+           ↑
+         🔵 YOU
+
+New information then indicates that the route ahead has become dangerous:
+
+        🟢 SAFE
+       ❌ 🌉
+      FLOODED
+           ↑
+           ↑
+         🔵 YOU
+
+The system should NOT rely on the user noticing a visual map update.
+
+Instead, the phone should generate a distinctive high-priority warning sound and vibration.
 
 Example:
 
-        🔴🔴🔴🔴
-       FLOOD FRONT
-          ↓↓↓
-          ↓↓↓
-         1.4 km
-          🔵
-          YOU
-           ↗
-          ↗
-         ↗
-        260 m
-    🟢 SAFE HIGH GROUND
-          GO ↗
+⚠️ STOP — ROUTE DANGER
 
-The objective is not to maximize information.
+The purpose of the sound is first to interrupt movement and regain the user’s attention.
 
-The objective is to minimize time-to-comprehension.
+Only after stopping should the user need to look at the phone.
 
 ⸻
 
-4. Time-to-Comprehension as a Safety Metric
+Stage 4 — Visual Rerouting
 
-Emergency-system latency should not only measure network transmission time.
+After the warning sound causes the user to stop and check the device, the screen immediately displays the changed situation visually:
 
-Human interpretation also consumes time.
+          ❌
+      FLOODED ROAD
+          ↑
+          ↑
+       🔵 YOU
+        ↖
+      ↖
+    ↖
+🟢 NEW SAFE ROUTE
 
-The complete latency chain is:
+The user should not need to read an explanation before understanding the required action.
 
-Hazard occurs
-      ↓
-Hazard detected
-      ↓
-Information transmitted
-      ↓
-Alert reaches phone
-      ↓
-Person notices alert
-      ↓
-Person understands danger
-      ↓
-Person identifies own location
-      ↓
-Person identifies safe direction
-      ↓
-Person starts moving
+The interface should visually communicate:
+
+DO NOT CONTINUE
+
+and
+
+MOVE THIS WAY INSTEAD
+
+A short audio instruction may reinforce the image:
+
+“Stop. Danger ahead.”
+
+“Turn left.”
+
+The user then resumes evacuation.
+
+⸻
+
+5.1 Event-Triggered Attention
+
+This creates an important interaction principle:
+
+Do not continuously demand human attention.
+
+Instead:
+
+ALERT
+  ↓
+LOOK
+  ↓
+UNDERSTAND
+  ↓
+MOVE
+  ↓
+DO NOT WATCH SCREEN
+  ↓
+New route danger detected?
+  │
+  ├── NO → KEEP MOVING
+  │
+  └── YES
+        ↓
+   WARNING SOUND
+        ↓
+       STOP
+        ↓
+       LOOK
+        ↓
+   VISUAL REROUTE
+        ↓
+       MOVE
+
+The phone therefore acts less like a conventional navigation application and more like an emergency guardian.
+
+It remains quiet while the route remains acceptable.
+
+It demands attention only when the person’s required action changes.
+
+⸻
+
+5.2 Sound Has a Different Function From Graphics
+
+Sound and graphics should not compete.
+
+They perform different functions.
+
+SOUND
+
+Capture attention.
+
+Used when:
+
+* the initial disaster warning occurs;
+* danger suddenly appears ahead;
+* the evacuation route becomes invalid;
+* the user is moving toward a known hazard;
+* immediate stopping or direction change is required.
+
+IMAGE
+
+Communicate spatial information.
+
+Used to show:
+
+* danger location;
+* hazard movement;
+* user location;
+* safe-zone location;
+* new evacuation direction.
+
+TEXT
+
+Provide additional explanation.
+
+Used for:
+
+* disaster details;
+* government instructions;
+* uncertainty information;
+* shelter information;
+* secondary instructions.
 
 Therefore:
 
-Human cognitive latency is part of emergency-system latency.
+SOUND → STOP
 
-A next-generation emergency interface should attempt to minimize the number of decisions a person must make before beginning evacuation.
+IMAGE → UNDERSTAND
+
+ARROW → MOVE
+
+This sequence minimizes the amount of reading and continuous screen attention required during evacuation.
+
+⸻
+
+5.3 Communication Latency
+
+Dynamic rerouting requires rapidly changing information to move in both directions.
+
+The system may need:
+
+HAZARD SYSTEM
+      ↓
+updated flood / landslide information
+      ↓
+NETWORK
+      ↓
+PHONE
+      ↓
+user position / movement
+      ↑
+NETWORK
+      ↑
+ROUTING SYSTEM
+
+Dense low-Earth-orbit communication networks may be valuable as one component of this architecture because low orbital altitude and large constellation coverage can support relatively low-latency communication.
+
+Starlink is therefore relevant to this concept primarily as a potential communication and resilience layer, rather than assuming that existing Starlink satellites themselves detect every hazard.
+
+A future emergency architecture could combine:
+
+LEO + terrestrial cellular + radio + local emergency networks
+
+so that the system does not depend upon a single communication provider.
+
+For life-critical applications, communication redundancy is essential.
 
 ⸻
 
-5. Live Evacuation Navigation
+5.4 Core Human-Factors Principle
 
-After evacuation begins, the phone should transition from:
+The system should recognize that human information needs change during evacuation.
 
-Emergency Alert Mode
+Before movement:
 
-to:
+Show me what is happening and where to go.
 
-Live Evacuation Navigation Mode
+During movement:
 
-The system should continue updating:
+Do not make me watch the phone.
 
-🔵 YOU
-↓
-Current route
-↓
-Hazards ahead
-↓
-Route condition
-↓
-Nearest reachable safe zone
+When conditions change:
 
-The navigation system should not assume that the original route remains safe.
+Make me notice immediately.
+
+After I stop:
+
+Show me the new direction visually.
+
+The objective is therefore not simply faster data transmission.
+
+It is to match the communication method to the human state:
+
+Alert by sound.
+
+Explain by image.
+
+Guide by direction.
+
+Interrupt only when necessary.
 
 ⸻
+
 
 6. Dynamic Rerouting
 
