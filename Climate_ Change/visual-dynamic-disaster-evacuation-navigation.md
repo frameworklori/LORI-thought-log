@@ -427,7 +427,10 @@ Guide by direction.
 
 Interrupt only when necessary.
 
+The communication requirement is not merely emergency broadcasting. It is resilient, low-latency, bidirectional communication capable of maintaining a continuous feedback loop between evolving hazards, evacuation routing systems, and people in motion.
+
 ⸻
+
 
 
 6. Dynamic Rerouting
